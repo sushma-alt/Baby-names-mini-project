@@ -179,4 +179,8 @@ public class BabyNames {
         int total_births = totalBirthsRankedHigher(year,name,gender);
         System.out.println("Total births ranked higher than " + name + " are " + total_births);
     }
+	public static void main(String[] args) {
+		BabyNames obj = new BabyNames();
+		obj.testWhatIsNameInYear();
+	}
 }
